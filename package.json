@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Place to show what I've done.",
   "main": "index.js",
   "scripts": {
