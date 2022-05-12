@@ -4,6 +4,7 @@
   "description": "Place to show what I've done.",
   "main": "index.js",
   "scripts": {
+    "release": "standard-version",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Ondion/Portfolio/issues"
   },
-  "homepage": "https://github.com/Ondion/Portfolio#readme"
+  "homepage": "https://github.com/Ondion/Portfolio#readme",
+  "devDependencies": {
+    "standard-version": "^9.3.2"
+  }
 }
