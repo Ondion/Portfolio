@@ -1,6 +1,13 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [0.1.3](https://github.com/Ondion/Portfolio/compare/v0.1.2...v0.1.3) (2022-05-26)
+
+
+### Features
+
+* adiciona função e troca de classes para botões icone ([996b64a](https://github.com/Ondion/Portfolio/commit/996b64a01a989726d6265643bd1c87678f068993))
 
 ### [0.1.2](https://github.com/Ondion/Portfolio/compare/v0.1.1...v0.1.2) (2022-05-26)
 
