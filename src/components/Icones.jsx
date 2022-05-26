@@ -1,25 +1,63 @@
 import React from 'react'
 
 function Icones() {
+
+  const changeClassActiveBtn = ({ target }) => {
+    const prevActiveBtn = document.querySelector(".active-btn");
+    prevActiveBtn.className = prevActiveBtn.className.replace("active-btn", " ");
+    target.classList.add("active-btn");
+  };
+
   return (
     <div className="controlls">
-      <div className="control control-1 active-btn">
-        <img width="300" height="200" src="../images/house-chimney-user-solid.svg" alt="house-icon" />
+      <div className="control control-1 active-btn"
+        onClick={ (event) => changeClassActiveBtn(event) }
+        data-id="home"
+      >
+        <img
+          src="../images/house.png"
+          alt=""
+        />
       </div>
-      <div className="control control-2">
-        <img width="300" height="200" src="../images/address-card-solid.svg" alt="address-card-icon" />
+      <div className="control control-2"
+        onClick={ (event) => changeClassActiveBtn(event) }
+        data-id="about"
+      >
+        <img
+          src="../images/address.png"
+          alt=""
+        />
       </div>
-      <div className="control control-3">
-        <img width="300" height="200" src="../images/briefcase-solid.svg" alt="briefcase-potfolio-icon" />
+      <div className="control control-3"
+        	onClick={ (event) => changeClassActiveBtn(event) }
+          data-id="portfolio"
+      >
+        <img
+          src="../images/briefcase.png"
+          alt=""
+        />
       </div>
-      <div className="control control-4">
-        <img width="300" height="200" src="../images/flag-checkered-solid.svg" alt="flag-done-icon" />
+      <div className="control control-4"
+        onClick={ (event) => changeClassActiveBtn(event) }
+        data-id="mission"
+      >
+        <img
+          src="../images/flag.png"
+          alt=""
+        />
       </div>
-      <div className="control control-5" >
-        <img width="300" height="200" src="../images/envelope-solid.svg" alt="envelope-main-icon" />
+      <div className="control control-5"
+        onClick={ (event) => changeClassActiveBtn(event) }
+        data-id="contact"
+      >
+        <img
+          src="../images/envelope.png"
+          alt=""
+        />
       </div>
     </div>
   )
 }
 
 export default Icones
+console.clear();
