@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.4](https://github.com/Ondion/Portfolio/compare/v0.1.3...v0.1.4) (2022-05-27)
+
+
+### Features
+
+* adiciona suporte ao react-router-dom@6 ([2255332](https://github.com/Ondion/Portfolio/commit/2255332895dae1a5bfb91c662f02de563023161c))
+
 ### [0.1.3](https://github.com/Ondion/Portfolio/compare/v0.1.2...v0.1.3) (2022-05-26)
 
 
