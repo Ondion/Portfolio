@@ -1,4 +1,9 @@
 import React from 'react'
+import address from'../images/address.png';
+import briefcase from'../images/briefcase.png';
+import envelope from'../images/envelope.png';
+import flag from'../images/flag.png';
+import house from'../images/house.png';
 
 function Icones() {
 
@@ -15,7 +20,7 @@ function Icones() {
         data-id="home"
       >
         <img
-          src="../images/house.png"
+          src={ house }
           alt=""
         />
       </div>
@@ -24,7 +29,7 @@ function Icones() {
         data-id="about"
       >
         <img
-          src="../images/address.png"
+          src={ address }
           alt=""
         />
       </div>
@@ -33,7 +38,7 @@ function Icones() {
           data-id="portfolio"
       >
         <img
-          src="../images/briefcase.png"
+          src={ briefcase }
           alt=""
         />
       </div>
@@ -42,7 +47,7 @@ function Icones() {
         data-id="mission"
       >
         <img
-          src="../images/flag.png"
+          src={ flag }
           alt=""
         />
       </div>
@@ -51,7 +56,7 @@ function Icones() {
         data-id="contact"
       >
         <img
-          src="../images/envelope.png"
+          src={ envelope }
           alt=""
         />
       </div>

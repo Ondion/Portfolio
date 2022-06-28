@@ -111,8 +111,12 @@ section {
   box-shadow: var(--box-shadow-1);
 }
 
-/* img {
+img {
+  height: 100%;
   font-size: 1.2rem;
   color: var(--color-grey-2);
   pointer-events: none;
-} */
+}
+
+.control-2 {
+}
